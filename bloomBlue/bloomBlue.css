@@ -1,0 +1,17 @@
+  @keyframes my-keyframe {
+    0% {background-color:  #2774AE;}
+    17% {background-color:  #478dc2;}
+    33% {background-color: #ffe46e;}
+    50% {background-color: #FFD100}
+    100% {background-color:  #2774AE;}
+}
+
+body {
+    width: 10000px;
+    height: 1000px;
+    background-color: blue;
+    animation-name: my-keyframe;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+

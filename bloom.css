@@ -1,0 +1,171 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+/* format bottom text*/
+.footer{
+    color: grey;
+    font-size: 12px;
+    padding-bottom: 5px;
+	padding-top: 50px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    line-height: 2;
+
+}
+/* format buttons*/
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+}
+.red {
+    background-color: white; 
+    color: black; 
+    border: 2px solid  #b92d2d;
+    transition: background-color 0.5s;
+}
+
+.red:hover {
+    background-color: #b92d2d;
+    color: white;
+}
+
+.orange {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #ec7e00;
+    transition: background-color 0.5s;
+}
+
+.orange:hover {
+    background-color: #ec7e00;
+    color: white;
+}
+
+.yellow {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #ecc905;
+    transition: background-color 0.5s;
+}
+
+.yellow:hover {
+    background-color: #ecc905;
+    color: white;
+}
+
+.green {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    transition: background-color 0.5s;
+}
+
+.green:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.blue{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #2774AE;
+    transition: background-color 0.5s;
+}
+
+.blue:hover {
+    background-color: #2774AE;
+    color: white;
+    border: 4px solid  #FFD100;
+}
+
+.purple{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4a05ec;
+    transition: background-color 0.5s;
+}
+
+.purple:hover {
+    background-color: #4a05ec;
+    color: white;
+}
+
+.random{
+    animation: bordColor 5s infinite linear;
+    color: black; 
+    border: 3px solid;
+    background-color: white;
+    
+  }
+  @keyframes bordColor {
+    0% {
+        border-color: #FF0000;
+    }
+    17% {
+        border-color: #FFA500;
+    }
+    33% {
+        border-color: #FFFF00;
+    }
+    50% {
+        border-color: #7FFF00;
+    }
+    62.5% {
+        border-color: #00FFFF;
+    }
+    75% {
+        border-color: #0000FF;
+    }
+    87.5% {
+        border-color: #9932CC;
+    }
+    100% {
+        border-color: #FF1493;
+    }
+  }
+
+.random:hover{
+    background-color: #ca1d1d;
+    animation: bgColor 5s infinite linear;
+    border: none;
+    color: white;
+  }
+  @keyframes bgColor {
+    12.5% {
+      background-color: #ca1d1d;
+    }
+    25% {
+      background-color: #FFA500;
+    }
+    37.5% {
+      background-color: #FFFF00;
+    }
+    50% {
+      background-color: #7FFF00;
+    }
+    62.5% {
+      background-color: #00FFFF;
+    }
+    75% {
+      background-color: #0000FF;
+    }
+    87.5% {
+      background-color: #9932CC;
+    }
+    100% {
+      background-color: #ca1d1d;
+    }
+  }
