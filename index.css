@@ -39,9 +39,9 @@ body{
 }
 
 .name-highlight{
-    content: "";
     background-color: var(--main-blue);
     color:white;
+    display: inline-block;
 }
 
 .content-container{
@@ -80,10 +80,10 @@ body{
 }
 
 .section{
-    padding-top: 2rem;
+    padding-top: 0rem;
     padding-right: 3rem;
     padding-left: 3rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .column{
@@ -131,7 +131,26 @@ p{
     transition-duration: 0.1s;
 }
 
+.small-button{
+    display: inline-block;
+    font-size: 17px;
+    color: inherit;
+    text-align: center;
+    text-decoration: none;
+
+    border: 2px solid var(--main-blue);
+    border-radius: 10px;
+    padding: 0em 1em;
+
+    transition-duration: 0.1s;
+}
+
 .button:hover, .button:focus, .button-selected{
+    background-color: var(--main-blue);
+    color: white;
+}
+
+.small-button:hover, .small-button:focus, .small-button-selected{
     background-color: var(--main-blue);
     color: white;
 }
