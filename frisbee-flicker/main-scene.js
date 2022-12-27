@@ -12,7 +12,7 @@ import {frisbee_flicker} from "./frisbee_flicker.js";
 // Pull these names into this module's scope for convenience:
 const {
     Vector, Vector3, vec, vec3, vec4, color, Matrix, Mat4, Light, Shape, Material, Shader, Texture, Scene,
-    Canvas_Widget, Text_Widget
+    Canvas_Widget, Code_Widget, Text_Widget
 } = tiny;
 
 // Now we have loaded everything in the files tiny-graphics.js, tiny-graphics-widgets.js, and common.js.
