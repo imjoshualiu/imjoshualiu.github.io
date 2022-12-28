@@ -60,6 +60,13 @@ body{
     align-content: center;
 }
 
+.center-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .row {
     display: grid;
     margin-top: 0rem;
@@ -74,6 +81,11 @@ body{
 .row-2-1 {
     grid-template-columns: 66% 33%;
 }
+
+.row-2-1-2 {
+    grid-template-columns: 40% 20% 40%;
+}
+
 
 .intro-section{
     padding-top: 4rem;
@@ -99,6 +111,10 @@ body{
     padding-left: 1rem;
 }
 
+.right-padding{
+    padding-right: 2rem;
+}
+
 h1, h2, h3, h4, h5, h6{
     margin: 0;
 }
@@ -113,6 +129,31 @@ h2{
 
 p{
     line-height: 1.5;
+}
+
+.controlled-center{
+    display: block;
+    text-align: center;
+}
+
+.controlled-center h3{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.controlled-center-span{
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+}
+
+.controlled-center span:nth-of-type(1) {
+    right: 100%;
+}
+
+.controlled-center span:nth-of-type(2) {
+    left: 100%;
 }
 
 .nav {
@@ -139,13 +180,13 @@ p{
     color: inherit;
     text-decoration: underline;
     text-decoration-color: var(--main-blue);
-    text-decoration-thickness: 0.15em;
 }
 
 .list-unstyled {
 	list-style: none;
-	margin-left: 0;
-	padding-left: 0;
+	margin: 0;
+	padding: 0;
+    margin-bottom: 1rem;
 }
 
 /*button formatting*/
@@ -163,7 +204,7 @@ p{
     margin-right: 0.75em;
     padding: 0.75em 1.5em;
     
-    transition-duration: 0.1s;
+    transition-duration: 0.2s;
 }
 
 .small-button{
@@ -224,7 +265,7 @@ p{
     float: left;
     bottom: 1rem;
     left: 1rem;
-    min-height: 3rem;
+    max-height: 15rem;
 }
 
 .silhouette-1 {
@@ -257,10 +298,11 @@ hr{
 .subsection{
     border: 2px solid var(--main-blue);
     border-radius: 15px;
-    height: 80%;
+    max-height: 100%;
     padding: 0.5rem;
     padding-left: 1rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 650px) {
