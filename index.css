@@ -180,6 +180,7 @@ p{
     color: inherit;
     text-decoration: underline;
     text-decoration-color: var(--main-blue);
+    text-decoration-thickness: 0.15em;
 }
 
 .list-unstyled {
