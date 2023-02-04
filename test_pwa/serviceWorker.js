@@ -2,11 +2,7 @@ const cacheName = "venmo_clone"
 const filesToCache = [
   "/",
   "/index.html",
-  "/index.css",
-  "/main.js",
-  "/payment/payment.html",
-  "/payment/payment.css",
-  "/payment/venmo_template.jpg"
+  "/index.css"
 ]
 
 self.addEventListener('install', function(e) {
