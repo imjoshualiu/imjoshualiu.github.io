@@ -3,21 +3,49 @@
 <head>
     <link rel = "stylesheet" href = "payment.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"> -->
 </head>
 <body class="bg">
     <div>
-        <img class = "pfp_position pfp_format" src = "assets/TBE.jpg"/>
-        <p class = "name_position name_format font-athletics">
+        <img class = "pfp_position pfp_format center" src = "assets/TBE.jpg"/>
+        <p class = "name_position name_format center font-athletics">
             The Bruin Experiment
         </p>
-        <p class = "comment_position comment_format">
+        <p class = "comment_position comment_format center font-sf">
             "cash money"
         </p>
-        <p class = "amount_position amount_format font-athletics">
+        <p class = "amount_position amount_format center font-athletics">
             - $10
+        </p>
+        <p class = "date_position date_format center font-sf-semibold">
+            <span id='date-time'></span>
+        </p>
+        <p class = "paid_to_position paid_to_format center font-sf-semibold">
+            The Bruin Experiment
         </p>
     </div>
     
+    
+    <script>
+        const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+        var dt = new Date();
+        let month = months[dt.getMonth()];
+        let date = dt.getDate();
+        let year = dt.getFullYear();
+        let hour = dt.getHours();
+        let ampm = "";
+        if (hour > 12){
+            hour -= 12;
+            ampm = "PM";
+        }
+        else{ ampm = "AM"; }
+        let minutes = dt.getMinutes();
+        if (minutes < 10) {minutes = "0" + minutes}
+        let final_date = month + " " + date + ", " + year + ", " + hour + ":" + minutes + " " + ampm;
+        document.getElementById('date-time').innerHTML=final_date;
+    </script>
+
 </body>
 </html>

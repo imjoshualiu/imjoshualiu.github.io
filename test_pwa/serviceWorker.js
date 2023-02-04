@@ -9,7 +9,9 @@ const filesToCache = [
   "/payment/venmo_template.jpg",
   "/payment/venmo_template_clean.jpg",
   "/payment/assets/TBE.jpg",
-  "/payment/assets/AthleticsMedium.otf"
+  "/payment/assets/AthleticsMedium.otf",
+  "/payment/assets/SF-Pro-Display-Semibold.otf",
+  "/payment/assets/SFPRODISPLAYREGULAR.OTF"
 ]
 
 self.addEventListener('install', function(e) {

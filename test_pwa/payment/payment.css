@@ -16,9 +16,35 @@ body, html {
   color: black
 }
 
+@font-face {
+  font-family: "sf-semibold";
+  src: url(./assets/SF-Pro-Display-Semibold.ttf);
+  font-weight: 700;
+  font-display: swap;
+}
+
+.font-sf-semibold {
+  font-family: "sf-semibold";
+  font-weight: 700;
+  color: black;
+}
+
+@font-face {
+  font-family: "sf";
+  src: url(./assets/SFPRODISPLAYREGULAR.OTF);
+  font-weight: 700;
+  font-display: swap;
+}
+
+.font-sf {
+  font-family: "sf";
+  font-weight: 700;
+  color: black;
+}
+
 body{
   font-size: var(--font-size-root);
-  font-family: Tahoma, sans-serif;
+  font-family: "Roboto", Tahoma, sans-serif;
   line-height: 1.25;
 }
   
@@ -35,13 +61,16 @@ body{
     background-size: cover;
 }
 
-.pfp_position{
+.center{
   position: absolute;
   margin: auto;
   left: 0;
   right: 0;
   text-align: center;
   z-index: 1;
+}
+
+.pfp_position{
   margin-top: 30.25%;
 }
 
@@ -53,42 +82,48 @@ body{
 }
 
 .name_position{
-  position: absolute;
-  margin: auto;
-  left: 0;
-  right: 0;
-  text-align: center;
-  z-index: 1;
   margin-top: 43%;
 }
 
 .name_format{
-  font-size: 115%;
+  font-size: 123%;
   font-weight: 900;
 }
 
 .comment_position{
-  position: absolute;
-  margin: auto;
-  left: 0;
-  right: 0;
-  text-align: center;
-  z-index: 1;
-  margin-top: 50.5%;
+  margin-top: 50%;
 }
 
 .comment_format{
-  font-size: 72%;
+  font-size: 95%;
   font-weight: 200;
 }
 
+.date_position{
+  text-align: left;
+  margin-left: 4%;
+  margin-top: 136%;
+}
+
+.date_format{
+  font-size: 94%;
+  font-weight: 1000;
+  /* letter-spacing: 0.05rem; */
+}
+
+.paid_to_position{
+  text-align: left;
+  margin-left: 4%;
+  margin-top: 153%;
+}
+
+.paid_to_format{
+  font-size: 94%;
+  font-weight: 1000;
+  /* letter-spacing: 0.05rem; */
+}
+
 .amount_position{
-  position: absolute;
-  margin: auto;
-  left: 0;
-  right: 0;
-  text-align: center;
-  z-index: 1;
   margin-top: 56%;
 }
 
@@ -97,3 +132,4 @@ body{
   font-weight: 1100;
   color: #c2373c;
 }
+
