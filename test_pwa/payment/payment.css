@@ -15,3 +15,20 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.pfp_position{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 1;
+  margin-top: 125px;
+}
+
+.pfp_format{
+  border-radius: 110px;
+
+  width: 45px;
+  height: auto;
+}
