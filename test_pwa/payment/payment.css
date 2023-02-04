@@ -1,11 +1,30 @@
 body, html {
     height: 100%;
     margin: 0;
-  }
+}
+
+@font-face {
+  font-family: "athletics";
+  src: url(./assets/AthleticsMedium.otf);
+  font-weight: 700;
+  font-display: swap;
+}
+
+.font-athletics {
+  font-family: "athletics";
+  font-weight: 700;
+  color: black
+}
+
+body{
+  font-size: var(--font-size-root);
+  font-family: Tahoma, sans-serif;
+  line-height: 1.25;
+}
   
 .bg {
     /* The image used */
-    background-image: url("venmo_template.jpg");
+    background-image: url("venmo_template_clean.jpg");
   
     /* Full height */
     height: 101%; 
@@ -23,7 +42,7 @@ body, html {
   right: 0;
   text-align: center;
   z-index: 1;
-  margin-top: 125px;
+  margin-top: 30.25%;
 }
 
 .pfp_format{
@@ -31,4 +50,50 @@ body, html {
 
   width: 45px;
   height: auto;
+}
+
+.name_position{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 1;
+  margin-top: 43%;
+}
+
+.name_format{
+  font-size: 115%;
+  font-weight: 900;
+}
+
+.comment_position{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 1;
+  margin-top: 50.5%;
+}
+
+.comment_format{
+  font-size: 72%;
+  font-weight: 200;
+}
+
+.amount_position{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 1;
+  margin-top: 56%;
+}
+
+.amount_format{
+  font-size: 150%;
+  font-weight: 1100;
+  color: #c2373c;
 }
