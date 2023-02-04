@@ -1,0 +1,6 @@
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 200%;
+  }

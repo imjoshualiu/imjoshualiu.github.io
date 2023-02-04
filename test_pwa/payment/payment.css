@@ -1,0 +1,17 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+.bg {
+    /* The image used */
+    background-image: url("venmo_template.jpg");
+  
+    /* Full height */
+    height: 101%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
