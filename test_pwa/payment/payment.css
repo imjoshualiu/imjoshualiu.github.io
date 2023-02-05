@@ -17,14 +17,14 @@ body, html {
 }
 
 @font-face {
-  font-family: "sf-semibold";
-  src: url(./assets/SF-Pro-Display-Semibold.ttf);
+  font-family: "sf-medium";
+  src: url(./assets/SFPRODISPLAYMEDIUM.OTF);
   font-weight: 700;
   font-display: swap;
 }
 
-.font-sf-semibold {
-  font-family: "sf-semibold";
+.font-sf-medium {
+  font-family: "sf-medium";
   font-weight: 700;
   color: black;
 }
@@ -71,14 +71,13 @@ body{
 }
 
 .pfp_position{
-  margin-top: 25%;
+  margin-top: 24.75%;
 }
 
 .pfp_format{
-  border-radius: 110px;
-
   width: 45px;
   height: auto;
+  border-radius: 110px;
 }
 
 .name_position{
@@ -106,7 +105,7 @@ body{
 }
 
 .date_format{
-  font-size: 94%;
+  font-size: 98%;
   font-weight: 1000;
   /* letter-spacing: 0.05rem; */
 }
@@ -118,7 +117,7 @@ body{
 }
 
 .paid_to_format{
-  font-size: 94%;
+  font-size: 98%;
   font-weight: 1000;
   /* letter-spacing: 0.05rem; */
 }
