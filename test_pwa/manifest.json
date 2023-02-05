@@ -1,0 +1,14 @@
+{
+  "name": "venmo_clone",
+  "short_name": "venmo_clone",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [{
+    "src": "./venmo_logo.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ]
+}
