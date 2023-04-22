@@ -10,6 +10,7 @@ const filesToCache = [
   "/payment/venmo_template_clean.jpg",
   "/payment/assets/TBE.jpg",
   "/payment/assets/LASBC.jpg",
+  "/payment/assets/TDX.jpg",
   "/payment/assets/AthleticsMedium.otf",
   "/payment/assets/SFPRODISPLAYMEDIUM.OTF",
   "/payment/assets/SFPRODISPLAYREGULAR.OTF"
