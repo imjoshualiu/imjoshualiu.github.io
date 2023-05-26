@@ -11,6 +11,9 @@ const filesToCache = [
   "/payment/assets/TBE.jpg",
   "/payment/assets/LASBC.jpg",
   "/payment/assets/TDX.jpg",
+  "/payment/assets/P1.jpg",
+  "/payment/assets/P2.jpg",
+  "/payment/assets/P3.jpg",
   "/payment/assets/AthleticsMedium.otf",
   "/payment/assets/SFPRODISPLAYMEDIUM.OTF",
   "/payment/assets/SFPRODISPLAYREGULAR.OTF"
