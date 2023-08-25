@@ -48,6 +48,8 @@ body{
     font-size: 20px; 
     display: flex; 
     align-items: center;
+    text-decoration: none;
+    color: inherit;
 }
 
 .name-highlight{
