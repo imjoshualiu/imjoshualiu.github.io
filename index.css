@@ -15,6 +15,8 @@ html, body{
 
 ul{
     margin-top: 5px;
+    margin-left: 1rem; 
+    margin-top: 0;
 }
 
 /* fonts and typography */
@@ -40,6 +42,12 @@ body{
 /*text formatting*/
 .name-title{
     font-size: 3.5rem;
+}
+
+.projects-title{
+    font-size: 20px; 
+    display: flex; 
+    align-items: center;
 }
 
 .name-highlight{
@@ -73,6 +81,14 @@ body{
     width: 50vh;
 }
 
+.image-icon{
+    margin-left: 5px;
+    width: 20px;
+    vertical-align: center;
+    text-decoration: none; 
+    color: inherit;
+}
+
 .row {
     display: grid;
     margin-top: 0;
@@ -95,8 +111,8 @@ body{
 
 .intro-section{
     padding-top: 4rem;
-    padding-right: 4rem;
-    padding-left: 4rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
     padding-bottom: 2rem;
     display: flex;
 }
@@ -188,13 +204,15 @@ p{
     text-decoration: underline;
     text-decoration-color: var(--main-blue);
     text-decoration-thickness: 0.15em;
+    cursor: pointer;
 }
 
 .list-unstyled {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
 }
 
 /*button formatting*/
@@ -205,6 +223,8 @@ p{
     text-align: center;
     text-decoration: none;
 
+    position: relative;
+
     border: 2px solid var(--main-blue);
     border-radius: 10px;
     margin-top: 0.5em;
@@ -213,6 +233,7 @@ p{
     padding: 0.75em 1.5em;
     
     transition-duration: 0.2s;
+    width: 80px;
 }
 
 .small-button{
