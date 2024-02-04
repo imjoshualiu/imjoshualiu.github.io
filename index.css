@@ -324,6 +324,23 @@ p{
     left: -2rem;
 }
 
+/* logo formatting*/
+.qcom-format {
+    max-height: 19px !important;
+    /* border-radius: 25px !important; */
+    vertical-align: -11% !important;
+}
+
+.vzio-format{
+    max-height: 15px!important;
+    vertical-align: -7% !important;
+}
+
+.len-format{
+    max-height: 13px!important;
+    vertical-align: -2% !important;
+}
+
 /* other element formatting */
 hr{
     background-color: var(--main-blue);
