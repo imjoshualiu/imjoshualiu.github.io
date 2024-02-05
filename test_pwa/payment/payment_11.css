@@ -75,13 +75,13 @@ body{
 }
 
 .pfp_format{
-  width: 50px;
+  width: 45px;
   height: auto;
-  border-radius: 120px;
+  border-radius: 110px;
 }
 
 .name_position{
-  margin-top: 40%;
+  margin-top: 38%;
 }
 
 .name_format{
@@ -90,7 +90,7 @@ body{
 }
 
 .comment_position{
-  margin-top: 47%;
+  margin-top: 45%;
 }
 
 .comment_format{
@@ -100,8 +100,8 @@ body{
 
 .date_position{
   text-align: left;
-  margin-left: 4.5%;
-  margin-top: 127%;
+  margin-left: 4%;
+  margin-top: 130.2%;
 }
 
 .date_format{
@@ -112,8 +112,8 @@ body{
 
 .paid_to_position{
   text-align: left;
-  margin-left: 4.5%;
-  margin-top: 145%;
+  margin-left: 4%;
+  margin-top: 147.2%;
 }
 
 .paid_to_format{
@@ -123,7 +123,7 @@ body{
 }
 
 .amount_position{
-  margin-top: 53%;
+  margin-top: 51%;
 }
 
 .amount_format{
