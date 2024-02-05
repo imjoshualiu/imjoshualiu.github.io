@@ -8,6 +8,7 @@ const filesToCache = [
   "/payment/payment.css",
   "/payment/venmo_template.jpg",
   "/payment/venmo_template_clean.jpg",
+  "/payment/venmo_template_11.jpg",
   "/payment/assets/TBE.jpg",
   "/payment/assets/LASBC.jpg",
   "/payment/assets/TDX.jpg",
