@@ -1,3 +1,9 @@
+body{
+  font-size: var(--font-size-root);
+  font-family: 'Trebuchet MS', Tahoma, sans-serif;
+  line-height: 1.25;
+}
+
 .input {
     display: flex;
     align-items: center;
