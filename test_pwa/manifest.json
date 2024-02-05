@@ -1,6 +1,6 @@
 {
-  "name": "venmo_clone",
-  "short_name": "venmo_clone",
+  "name": "venmo 2.0",
+  "short_name": "venmo 2.0",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#000000",
