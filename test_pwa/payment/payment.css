@@ -71,7 +71,7 @@ body{
 }
 
 .pfp_position{
-  margin-top: 24.6%;
+  margin-top: 24.9%;
 }
 
 .pfp_format{
@@ -81,7 +81,7 @@ body{
 }
 
 .name_position{
-  margin-top: 40%;
+  margin-top: 39.5%;
 }
 
 .name_format{
@@ -100,8 +100,8 @@ body{
 
 .date_position{
   text-align: left;
-  margin-left: 4.5%;
-  margin-top: 127%;
+  margin-left: 4.25%;
+  margin-top: 128%;
 }
 
 .date_format{
@@ -112,8 +112,8 @@ body{
 
 .paid_to_position{
   text-align: left;
-  margin-left: 4.5%;
-  margin-top: 145%;
+  margin-left: 4.25%;
+  margin-top: 145.5%;
 }
 
 .paid_to_format{
