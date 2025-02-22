@@ -70,6 +70,7 @@ body {
     display: flex;
     width: 100vw;
     max-width: 3000px;
+    padding-top: 3vh;
 }
 
 /* .name-div {
@@ -208,7 +209,7 @@ a {
     font-family: "nimbusSans";
     font-size: var(--heading-1-font-size);
     letter-spacing: var(--title-text-spacing);
-    line-height: 1.1em;
+    line-height: 0.85em;
     color: var(--main-green);
 }
 
@@ -280,6 +281,7 @@ a {
     .title-div-container {
         width: 100vw;
         flex-direction: column;
+        padding-top: unset;
     }
 
     .name-div {
