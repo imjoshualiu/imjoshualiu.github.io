@@ -40,6 +40,7 @@ body {
     background-color: var(--background);
     font-family: "nimbusSans";
     overflow-x: hidden;
+    line-height: 0;
 }
 
 @font-face {
@@ -215,7 +216,7 @@ a {
     font-family: "nimbusSans";
     font-size: var(--heading-2-font-size);
     letter-spacing: var(--title-text-spacing);
-    line-height: 0.6em;
+    line-height: 0.9em;
     color: var(--text-color);
 }
 
@@ -231,7 +232,7 @@ a {
     font-family: "nimbusSans";
     font-size: var(--heading-3-font-size);
     letter-spacing: var(--title-text-spacing);
-    line-height: 1.1em;
+    line-height: 1.3em;
     color: var(--text-color);
 }
 
@@ -318,6 +319,8 @@ a {
         min-height: unset;
         margin-top: var(--top-padding);
         margin-bottom: 0vh;
+        padding-right: 2.75vw;
+        padding-left: 2.75vw;
     }
 
     .button-container {
@@ -325,10 +328,10 @@ a {
     }
 
     .link-button {
-        width: 25vw;
-        height: 5vh;
-        margin-left: 2vw;
-        margin-right: 2vw;
+        width: 26vw;
+        height: 5.5vh;
+        margin-left: 2.75vw;
+        margin-right: 2.75vw;
         margin-top: 0vh;
         min-height: 5vh;
     }
