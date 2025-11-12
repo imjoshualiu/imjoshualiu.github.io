@@ -154,7 +154,7 @@ main-wrapper {
 
 .content-div {
     width: 100vw;
-}
+} 
 
 /* .tagline-div {
     width: var(--tagline-div-width);
@@ -193,6 +193,7 @@ main-wrapper {
     cursor: pointer;
     margin-top: 3vh;
     transition: var(--background) 1s;
+    display: table;
 }
 
 a {
@@ -272,6 +273,9 @@ a {
     letter-spacing: var(--title-text-spacing);
     line-height: 1.1em;
     color: var(--title-text-color);
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
 }
 
 @media (max-width: 1400px) {
@@ -295,7 +299,7 @@ a {
         --button-font-size: 1.2rem;
 
         --left-padding: 5vw;
-        --top-padding: 3vh;
+        --top-padding: 2.3vh;
 
         --min-name-div-height-compact: 90px;
         --min-bottom-div-height-compact: 25px;
