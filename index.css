@@ -21,7 +21,14 @@
     --tagline-div-width: 75vw;
     --tagline-text-spacing: -0.04em;
 
-    --intro-div-padding: 5vw;
+    --max-buttons-div-width: 600px;
+    --max-button-width: 275px;
+    --max-button-height: 100px;
+
+    --intro-div-padding: 4vw;
+    --max-intro-div-padding: 80px;
+
+    --right-intro-div-max-width: 680px;
 
     --title-text-font-size: 5rem;
     --sub-title-text-font-size: 3rem;
@@ -37,10 +44,16 @@ body {
     margin: 0;
     padding: 0;
     max-width: 100vw;
+    height: 100%;
     background-color: var(--background);
     font-family: "nimbusSans";
     overflow-x: hidden;
     line-height: 0;
+}
+
+main-wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 @font-face {
@@ -96,9 +109,11 @@ body {
     display: flex;
     justify-content: flex-end;
     width: 37vw;
+    max-width: var(--max-buttons-div-width);
     min-height: var(--intro-div-height);
     box-sizing: border-box;
-    padding-right: var(--intro-div-padding);
+    padding-left: clamp(0px,var(--intro-div-padding),var(--max-intro-div-padding));
+    padding-right: clamp(0px,var(--intro-div-padding),var(--max-intro-div-padding));
 }
 
 .button-container {
@@ -110,16 +125,19 @@ body {
 .right-intro-div {
     flex-grow: 1;
     min-height: var(--intro-div-height);
+    max-width: var(--right-intro-div-max-width);
     /* top: 0; */
     box-sizing: border-box;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: var(--intro-div-padding);
-    padding-right: var(--intro-div-padding);
+    padding-left: clamp(0px,var(--intro-div-padding),var(--max-intro-div-padding));
+    padding-right: clamp(0px,var(--intro-div-padding),var(--max-intro-div-padding));
+    
 }
 
 .job-div {
     margin-top: 2vh;
+    max-width: 680px;
     /* width: 50vw; */
 }
 
@@ -167,7 +185,9 @@ body {
 .link-button {
     background-color: var(--main-green);
     width: 18vw;
+    max-width: var(--max-button-width);
     height: 10vh;
+    max-height: var(--max-button-height);
     border: none;
     border-radius: 2px;
     cursor: pointer;
@@ -272,10 +292,17 @@ a {
         --heading-1-font-size: 1.9rem;
         --heading-2-font-size: 1.9rem;
         --heading-3-font-size: 0.9rem;
-        --button-font-size: 1rem;
+        --button-font-size: 1.2rem;
 
         --left-padding: 5vw;
-        --top-padding: 2vh;
+        --top-padding: 3vh;
+
+        --min-name-div-height-compact: 90px;
+        --min-bottom-div-height-compact: 25px;
+
+        --min-button-height-compact: 27px;
+        --max-button-width-compact: 175px;
+        --max-button-height-compact: 55px;
     }
 
     .title-div-container {
@@ -285,7 +312,7 @@ a {
     }
 
     .name-div {
-        min-height: unset;
+        min-height: var(--min-name-div-height-compact);
         width: 100%;
         height: 10vh;
     }
@@ -296,6 +323,7 @@ a {
         min-height: unset;
         padding-top: var(--top-padding);
         padding-left: var(--left-padding);
+        padding-right: var(--left-padding);
         justify-content: center;
     }
 
@@ -319,6 +347,7 @@ a {
     .buttons-div {
         width: unset;
         min-height: unset;
+        max-width: unset;
         margin-top: var(--top-padding);
         margin-bottom: 0vh;
         padding-right: 2.75vw;
@@ -326,19 +355,34 @@ a {
     }
 
     .button-container {
+        min-height: var(--min-button-height-compact);
         flex-direction: row;
     }
 
     .link-button {
         width: 26vw;
+        max-width: var(--max-button-width-compact);
+        min-height: var(--min-button-height-compact);
         height: 5.5vh;
+        max-height: var(--max-button-height-compact);
         margin-left: 2.75vw;
         margin-right: 2.75vw;
         margin-top: 0vh;
-        min-height: 5vh;
     }
 
-    /* .bottom-div{
+    .main-wrapper {
+        display: flex;
+        flex-direction: column;
+        /* height: calc(100vh - max(10vh, var(--min-name-div-height-compact)) - 5vh); */
+    }
+
+    .spacer {
+        flex-grow: 1;
+        min-height: 0;
+    }
+
+    .bottom-div {
         position: fixed;
-    } */
+        bottom: 0;
+    }
 }
